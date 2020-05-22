@@ -1,6 +1,8 @@
 package fr.mantastudio.gtfs.types;
 
 public enum RouteType {
+  // GTFS Official Documentation: https://developers.google.com/transit/gtfs/reference/extended-route-types
+  
   // RAILWAY SERVICES
   RAILWAY_SERVICE(100),
   HIGH_SPEED_RAILWAY_SERVICE(101),
